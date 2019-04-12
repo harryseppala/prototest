@@ -1,12 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <p>moi2</p>
-</body>
-</html>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" />
+<p>Click the <strong>table headers</strong> to sort the table accordingly:</p>
+
+<table id="usersTable" class="w3-table-all">
+  <tr>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">Name</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Address</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(3)')" style="cursor:pointer">Sales Person</th>
+  </tr>
+
+  <tr class="item">
+    <td>user:2911002</td>
+    <td>UK</td>
+    <td>Melissa</td>
+  </tr>
+  <tr class="item">
+    <td>user:2201002</td>
+    <td>France</td>
+    <td>Justin</td>
+  </tr>
+  <tr class="item">
+    <td>user:2901092</td>
+    <td>San Francisco</td>
+    <td>Judy</td>
+  </tr>
+  <tr class="item">
+    <td>user:2801002</td>
+    <td>Canada</td>
+    <td>Skipper</td>
+  </tr>
+  <tr class="item">
+    <td>user:2901009</td>
+    <td>Christchurch</td>
+    <td>Alex</td>
+  </tr>
+
+</table>
